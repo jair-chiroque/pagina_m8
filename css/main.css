@@ -1,0 +1,14 @@
+#container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(15 - 10px) calc(30 - 10px) calc(10 - 10px) calc(30 - 10px) calc(15 - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#container2 .titulo{
+  padding: 9px;
+  border-radius: 5px;
+  grid-row: 2/3;
+  grid-column: 3/4
+}

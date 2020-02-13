@@ -1,0 +1,26 @@
+h1{
+  font-size: 500%;
+  font-family: 'Lacquer', sans-serif;
+
+}
+#container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: calc(15vh - 10px) calc(6vh - 10px) calc(32vh - 10px) calc(32vh - 10px) calc(16vh - 10px) calc(40vh - 10px) calc(4vh - 10px) calc(40vh - 10px)calc (15vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+#container .titulo1{
+  padding: 9px;
+  border-radius: 5px;
+  background-color: blue;
+  grid-row: 3/4;
+  grid-column: 2/4;
+}
+#container .titulo2{
+  padding: 9px;
+  background-color: red;
+  border-radius: 5px;
+  grid-row: 4/5;
+  grid-column: 2/4;
+}

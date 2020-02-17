@@ -6,7 +6,7 @@ h1{
 #containerjair {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: calc(15vh - 10px) calc(6vh - 10px) calc(32vh - 10px) calc(32vh - 10px) calc(16vh - 10px) calc(40vh - 10px) calc(4vh - 10px) calc(40vh - 10px) calc(15vh - 10px);
+  grid-template-rows: calc(15vh - 10px) calc(5vh - 10px) calc(32vh - 10px) calc(32vh - 10px) calc(16vh - 10px) calc(40vh - 10px) calc(4vh - 10px) calc(40vh - 10px) calc(15vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
@@ -45,5 +45,20 @@ h1{
   text-align: center;
 }
 #containerjair .entrevistas{
-  
+  padding: 9px;
+  margin-right: 5%;
+  background-color: blue;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 2/4;
+  text-align: center;
+}
+#containerjair .imagenes{
+  padding: 9px;
+  margin-left: 5%;
+  background-color: red;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 4/6;
+  text-align: center;
 }

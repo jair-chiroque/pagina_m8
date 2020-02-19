@@ -92,4 +92,136 @@ h1{
 
 
 
-aljflgfñlsj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Dylan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(15vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(30vh - 10px) calc(15vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#Dylan .titulo{
+  grid-row: 2/3;
+  grid-column: 3/4;
+  padding: 9px;
+  margin-right: 5%;
+  background-color: blue;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 2/4;
+  text-align: center;
+}
+#Dylan .imagenes{
+  padding: 9px;
+  margin-left: 5%;
+  background-color: red;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 4/6;
+  text-align: center;
+}

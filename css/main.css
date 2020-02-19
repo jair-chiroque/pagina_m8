@@ -3,24 +3,225 @@ h1{
   font-family: 'Lacquer', sans-serif;
 
 }
-#container {
+#containerjair {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-template-rows: calc(15vh - 10px) calc(6vh - 10px) calc(32vh - 10px) calc(32vh - 10px) calc(16vh - 10px) calc(40vh - 10px) calc(4vh - 10px) calc(40vh - 10px) calc(15vh - 10px);
+  grid-template-columns: 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr;
+  grid-template-rows: calc(15vh - 10px) calc(5vh - 10px) calc(32vh - 10px) calc(32vh - 10px) calc(16vh - 10px) calc(40vh - 10px) calc(4vh - 10px) calc(40vh - 10px) calc(15vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-#container .titulo1{
+#containerjair .titulo1{
   padding: 9px;
-  border-radius: 5px;
   background-color: blue;
+  border-radius: 5px;
   grid-row: 3/4;
-  grid-column: 2/4;
+  grid-column: 3/5;
+  text-align: center;
 }
-#container .titulo2{
+#containerjair .titulo2{
   padding: 9px;
   background-color: red;
   border-radius: 5px;
   grid-row: 4/5;
+  grid-column: 3/5;
+  text-align: center;
+}
+#containerjair .explicacion1{
+  margin-right:5%;
+  padding: 9px;
+  background-color: red;
+  border-radius: 5px;
+  grid-row: 6/7;
   grid-column: 2/4;
+  text-align: center;
+}
+#containerjair .explicacion2{
+  margin-left: 5%;
+  padding: 9px;
+  background-color: blue;
+  border-radius: 5px;
+  grid-row: 6/7;
+  grid-column: 4/6;
+  text-align: center;
+}
+#containerjair .entrevistas{
+  padding: 9px;
+  margin-right: 5%;
+  background-color: blue;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 2/4;
+  text-align: center;
+}
+#containerjair .imagenes{
+  padding: 9px;
+  margin-left: 5%;
+  background-color: red;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 4/6;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Dylan {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(15vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(30vh - 10px) calc(15vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#Dylan .titulo{
+  grid-row: 2/3;
+  grid-column: 3/4;
+  padding: 9px;
+  margin-right: 5%;
+  background-color: blue;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 2/4;
+  text-align: center;
+}
+#Dylan .imagenes{
+  padding: 9px;
+  margin-left: 5%;
+  background-color: red;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 4/6;
+  text-align: center;
 }

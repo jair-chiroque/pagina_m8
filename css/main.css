@@ -275,6 +275,12 @@ h1{
   grid-row-gap: 10px;
 }
 
+#Viatge .fondo{
+  background-color: black;
+  grid-row: 3/7;
+  grid-column: 1/5;
+}
+
 #Viatge .titulo{
   padding: 9px;
   margin-right: 5%;
@@ -292,16 +298,4 @@ h1{
   grid-row: /;
   grid-column: /;
   text-align: center;
-}
-
-#Viatge2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: calc(50vh - 10px) calc(50vh - 10px);
-  grid-column-gap:  10px;
-  grid-row-gap: 10px;
-}
-
-#Viatge2 .imagen2{
-
 }

@@ -89,7 +89,7 @@ h1{
   padding:9px;
   background-color: black;
   border-radius: 50px;
-  grid-row: 3/4 ;
+  grid-row: 3/5 ;
   grid-column: 2/3;
 }
 #jaircamins .titulocami2 h1{
@@ -131,6 +131,13 @@ h1{
 }
 
 
+#jairexpo{
+  display: grid;
+  grid-template-columns: auto; ;
+  grid-template-rows: ;
+  grid-column-gap:10px ;
+  grid-row-gap: 10px ;
+}
 
 
 

@@ -269,31 +269,36 @@ h1{
 
 #Viatge {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: calc(15vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(30vh - 10px) calc(15vh - 10px);
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(31vh - 10px) calc(55vh - 10px) calc(5vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
 
 #Viatge .fondo{
   background-color: black;
-  grid-row: 3/6;
+  grid-row: 4/8;
   grid-column: 1/5;
 }
 
 #Viatge .titulo{
   padding: 9px;
-  margin-right: 5%;
-  background-color: pink;
-  border-radius: 5px;
-  grid-row: 2/3;
-  grid-column: 3/4;
-  text-align: center;
+  border-radius: 50px;
+  background-color: black;
+  grid-row: 3/5;
+  grid-column: 2/3;
 }
+
+#Viatge .titulo h1{
+  color: white;
+  font-size: 800%;
+  margin-top: 0px;
+  margin-left: 15px;
+}
+
 #Viatge .imagen{
   padding: 9px;
   margin-left: 5%;
-  background-color: red;
   border-radius: 5px;
   grid-row: /;
   grid-column: /;

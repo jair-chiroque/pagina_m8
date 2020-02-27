@@ -332,7 +332,6 @@ h1{
 #Viatge .imagen{
   padding: 9px;
   margin-left: 5%;
-  background-color: red;
   border-radius: 5px;
   grid-row: 5/6;
   grid-column: 1/3;

@@ -134,7 +134,7 @@ h1{
 #jairexpo{
   display: grid;
   grid-template-columns: auto;  ;
-  grid-template-rows: ;
+  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px);
   grid-column-gap:10px ;
   grid-row-gap: 10px ;
 }

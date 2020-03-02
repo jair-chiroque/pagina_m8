@@ -135,7 +135,6 @@ h1{
 #jairexpo{
   display: grid;
   grid-template-columns:  1fr 3fr 1fr  1fr ;
-  grid-template-columns:  1fr 3fr 6fr  1fr ;
   grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(3vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px);
   grid-column-gap: 10px ;
   grid-row-gap: 10px ;
@@ -150,13 +149,10 @@ h1{
   background-color: black;
   border-radius: 50px;
   grid-row: 3/5 ;
-<<<<<<< HEAD
   grid-column: 2/3;
-=======
   grid-column: 1/2;
   width: 100%;
   height: 100%;
->>>>>>> be85cc7524b3ec184037b46a034912f078392ed6
 }
 #jairexpo .tituloexpo h1{
 
@@ -166,18 +162,14 @@ h1{
   margin-left: 35px;
 }
 #jairexpo .imagenexpo1{
-<<<<<<< HEAD
 
-=======
  grid-row: 4/5;
  grid-column: 2/3;
->>>>>>> be85cc7524b3ec184037b46a034912f078392ed6
 }
 #jairexpo .imagenexpo2{
 
 }
 #jairexpo .imagenexpo3{
-<<<<<<< HEAD
 
 }
 #jairexpo .imagenexpo4{
@@ -195,7 +187,6 @@ h1{
 #jairexpo .imagegenexpo5{
 
 }
->>>>>>> be85cc7524b3ec184037b46a034912f078392ed6
 
 
 

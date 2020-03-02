@@ -348,15 +348,27 @@ h1{
   color: white;
   font-size: 450%;
   grid-row: 5/6;
-  grid-column: 2/3;
+  grid-column: 3/4;
   text-align: center;
 }
 #Viatge .text p{
   position: absolute; left: 2250px;
+}
 
+#viatge .imagen2{
+  padding: 9px;
+  margin-left: 5%;
+  border-radius: 5px;
+  grid-row: 6/7;
+  grid-column: 3/4;
+  text-align: center;
+}
 
-
-
+#Viatge .imagen2 img{
+  width: 1500px;
+  height: 1200px;
+  position: absolute; left: ;
+}
 
 
 

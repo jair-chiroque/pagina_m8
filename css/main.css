@@ -134,7 +134,7 @@ h1{
 
 #jairexpo{
   display: grid;
-  grid-template-columns:  1fr 3fr 1fr  1fr ;
+  grid-template-columns:  1fr 2fr 2fr  1fr ;
   grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(3vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px);
   grid-column-gap: 10px ;
   grid-row-gap: 10px ;
@@ -157,14 +157,18 @@ h1{
 #jairexpo .tituloexpo h1{
 
   color: white;
-  font-size: 800%;
+/*font-size: 800%;*/
   margin-top: 0px;
   margin-left: 35px;
 }
 #jairexpo .imagenexpo1{
 
- grid-row: 4/5;
- grid-column: 2/3;
+ grid-row: 6/7;
+ grid-column: 1/3;
+}
+#jairexpo .imagenexpo1 img{
+  width: 100%;
+  height: 100%;
 }
 #jairexpo .imagenexpo2{
 

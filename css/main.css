@@ -198,7 +198,7 @@ h1{
 #jairexpo .imagegenexpo5{
 
 }
-=======
+
 
 }
 #jairexpo .imagenexpo4{
@@ -208,9 +208,48 @@ h1{
 
 }
 
+#jairveus{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr;
+  grid-template-rows: calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(15vh - 10px) calc(55vh - 10px) calc(10vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+#jairveus .fondoveus{
+  background-color: black;
+  grid-row: 4/8;
+  grid-column: 1/7;
+}
+#jairveus .tituloveus1 {
+  padding:9px;
+  background-color: black;
+  border-radius: 50px;
+  grid-row: 3/4;
+  grid-column: 2/4;
+  height: 209px;
 
-
-
+  }
+  #jairveus .tituloveus1 h1{
+    color:white;
+    width: 200%;
+    height: 200%;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  #jairveus .audioveu{
+    padding: 9px;
+    grid-row: 5/6;
+    grid-column: 2/4;
+  }
+  #jairveus .imagenveu1{
+    padding: 9px;
+    grid-row: 6/7;
+    grid-column: 3/5;
+  }
+  #jairveus .imagenveu1 img{
+    width: 100%;
+    height: 100%;
+  }
 
 
 

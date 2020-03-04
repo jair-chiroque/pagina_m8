@@ -338,11 +338,8 @@ h1{
 #Viatge {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr 1fr;
-<<<<<<< HEAD
   grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(10vh - 10px) calc(41vh - 10px) calc(55vh - 10px) calc(25vh - 10px);
-=======
   grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(31vh - 10px) calc(55vh - 10px) calc(5vh - 10px);
->>>>>>> be85cc7524b3ec184037b46a034912f078392ed6
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
@@ -356,21 +353,7 @@ h1{
 #Viatge .titulo{
   padding:9px;
   background-color: black;
-<<<<<<< HEAD
   border-radius: 150px;
-  grid-row: 3/5 ;
-  grid-column: 2/3;
-}
-
-#Viatge .titulo h1{
-  color: white;
-  font-size: 2300%;
-  margin-top: 0px;
-  margin-left: 35px;
-}
-
-=======
-  border-radius: 50px;
   grid-row: 3/5 ;
   grid-column: 2/3;
 }
@@ -382,38 +365,36 @@ h1{
   margin-left: 35px;
 }
 
->>>>>>> be85cc7524b3ec184037b46a034912f078392ed6
 #Viatge .imagen{
   padding: 9px;
   margin-left: 5%;
   border-radius: 5px;
   grid-row: 5/6;
-<<<<<<< HEAD
   grid-column: 2/3;
-=======
   grid-column: 1/3;
->>>>>>> be85cc7524b3ec184037b46a034912f078392ed6
   text-align: center;
 }
 
 #Viatge .imagen img{
-  width: 1500px;
-  height: 1200px;
-  position: absolute; left: 300px;
+  width: 45%;
+  height: 45%;
+  position: absolute; left: 150px;
 }
 
 #Viatge .text{
   color: white;
-  font-size: 450%;
+  font-size: 425%;
   grid-row: 5/6;
+  grid-column: 2/3;
   grid-column: 3/4;
   text-align: center;
 }
+
 #Viatge .text p{
   position: absolute; left: 2250px;
 }
 
-#viatge .imagen2{
+#Viatge .imagen1{
   padding: 9px;
   margin-left: 5%;
   border-radius: 5px;
@@ -422,10 +403,9 @@ h1{
   text-align: center;
 }
 
-#Viatge .imagen2 img{
-  width: 1500px;
-  height: 1200px;
-  position: absolute; left: 15px;
+#Viagte .imagen1 img{
+  width: 500px;
+  height: 450px;
 }
 
 

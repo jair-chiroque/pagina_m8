@@ -6,53 +6,36 @@ h1{
 #containerjair {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(60vh - 10px) calc(5vh - 10px) calc(45vh - 10px) calc(5vh - 10px);
+  grid-template-rows: calc(15vh - 10px) calc(5vh - 10px) calc(32vh - 10px) calc(32vh - 10px) calc(16vh - 10px) calc(40vh - 10px) calc(4vh - 10px) calc(40vh - 10px) calc(15vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 }
-#containerjair .fondocarto{
-  background-color: black;
-  grid-row: 4/9;
-  grid-column: 1/7;
-}
 #containerjair .titulo1{
   padding: 9px;
+  background-color: blue;
   border-radius: 5px;
-  grid-row: 2/3;
-  grid-column: 2/4;
+  grid-row: 3/4;
+  grid-column: 3/5;
   text-align: center;
-  width: 100%;
-  height: 100%
-}
-#containerjair .titulo1 h1{
-  margin-top: 0px;
-  margin-left: 5px;
 }
 #containerjair .titulo2{
-  padding: 10px;
-  background-color: black;
-  border-radius: 50px;
-  grid-row: 3/4;
-  grid-column: 2/4;
-  height: 209px;
-}
-#containerjair .titulo2 h1{
-  color: white;
-  width: 200%;
-  height: 200%;
-  margin-top: 30px;
-  margin-left: 20px;
+  padding: 9px;
+  background-color: red;
+  border-radius: 5px;
+  grid-row: 4/5;
+  grid-column: 3/5;
+  text-align: center;
 }
 #containerjair .explicacion1{
   margin-right:5%;
   padding: 9px;
-  background-color: white;
+  background-color: red;
   border-radius: 5px;
-  grid-row: 7/8;
+  grid-row: 6/7;
   grid-column: 2/4;
   text-align: center;
 }
-/**#containerjair .explicacion2{
+#containerjair .explicacion2{
   margin-left: 5%;
   padding: 9px;
   background-color: blue;
@@ -60,22 +43,23 @@ h1{
   grid-row: 6/7;
   grid-column: 4/6;
   text-align: center;
-*/
+}
 #containerjair .entrevistas{
   padding: 9px;
   margin-right: 5%;
-  background-color: white;
+  background-color: blue;
   border-radius: 5px;
-  grid-row: 7/8;
-  grid-column: 4/6;
+  grid-row: 8/9;
+  grid-column: 2/4;
   text-align: center;
 }
 #containerjair .imagenes{
   padding: 9px;
-  background-color: blue;
+  margin-left: 5%;
+  background-color: red;
   border-radius: 5px;
-  grid-row: 5/6;
-  grid-column: 3/5;
+  grid-row: 8/9;
+  grid-column: 4/6;
   text-align: center;
 }
 #jaircamins{
@@ -150,7 +134,7 @@ h1{
 
 #jairexpo{
   display: grid;
-  grid-template-columns:  1fr 2fr 2fr  1fr ;
+  grid-template-columns:  1fr 3fr 6fr  1fr ;
   grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(3vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px);
   grid-column-gap: 10px ;
   grid-row-gap: 10px ;
@@ -165,7 +149,6 @@ h1{
   background-color: black;
   border-radius: 50px;
   grid-row: 3/5 ;
-  grid-column: 2/3;
   grid-column: 1/2;
   width: 100%;
   height: 100%;
@@ -173,32 +156,18 @@ h1{
 #jairexpo .tituloexpo h1{
 
   color: white;
-/*font-size: 800%;*/
+  font-size: 800%;
   margin-top: 0px;
   margin-left: 35px;
 }
 #jairexpo .imagenexpo1{
-
- grid-row: 6/7;
- grid-column: 1/3;
-}
-#jairexpo .imagenexpo1 img{
-  width: 100%;
-  height: 100%;
+ grid-row: 4/5;
+ grid-column: 2/3;
 }
 #jairexpo .imagenexpo2{
 
 }
 #jairexpo .imagenexpo3{
-
-}
-#jairexpo .imagenexpo4{
-
-}
-#jairexpo .imagegenexpo5{
-
-}
-=======
 
 }
 #jairexpo .imagenexpo4{
@@ -338,7 +307,6 @@ h1{
 #Viatge {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr 1fr;
-  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(10vh - 10px) calc(41vh - 10px) calc(55vh - 10px) calc(25vh - 10px);
   grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(31vh - 10px) calc(55vh - 10px) calc(5vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -353,7 +321,7 @@ h1{
 #Viatge .titulo{
   padding:9px;
   background-color: black;
-  border-radius: 150px;
+  border-radius: 50px;
   grid-row: 3/5 ;
   grid-column: 2/3;
 }
@@ -370,43 +338,13 @@ h1{
   margin-left: 5%;
   border-radius: 5px;
   grid-row: 5/6;
-  grid-column: 2/3;
   grid-column: 1/3;
   text-align: center;
 }
 
-#Viatge .imagen img{
-  width: 45%;
-  height: 45%;
-  position: absolute; left: 150px;
-}
 
-#Viatge .text{
-  color: white;
-  font-size: 425%;
-  grid-row: 5/6;
-  grid-column: 2/3;
-  grid-column: 3/4;
-  text-align: center;
-}
 
-#Viatge .text p{
-  position: absolute; left: 2250px;
-}
 
-#Viatge .imagen1{
-  padding: 9px;
-  margin-left: 5%;
-  border-radius: 5px;
-  grid-row: 6/7;
-  grid-column: 3/4;
-  text-align: center;
-}
-
-#Viagte .imagen1 img{
-  width: 500px;
-  height: 450px;
-}
 
 
 

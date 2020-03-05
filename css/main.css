@@ -288,8 +288,10 @@ h1{
 
 
 
-
-
+#imagenescaleras{
+  padding: 9px;
+  grid-row: 1/4;
+  grid-column: 1/7;
 
 
 
@@ -587,68 +589,58 @@ h1{
 
 #mohaescaleras{
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr 1fr  ;
-  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(31vh - 10px) calc(55vh - 10px) calc(5vh - 10px);
+  grid-template-columns:  1fr 3fr 6fr  1fr ;
+  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(3vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px);
   grid-column-gap: 10px ;
   grid-row-gap: 10px ;
 }
-#mohaescaleras .fondo{
-  background-color: black;
-  grid-row: 4/8;
-  grid-column: 1/5;
-}
-#mohaescaleras .tituloescaleras{
-  padding:9px;
-  border-radius: 5px;
-  grid-row: 2/3 ;
-  grid-column: 2/3;
-}
-#mohaescaleras.tituloescaleras h1{
-  font-size: 800%;
-  margin-top: 0px;
 
-}
 #mohaescaleras .tituloescaleras2{
-  padding:9px;
-  background-color: black;
-  border-radius: 50px;
-  grid-row: 3/5 ;
-  grid-column: 2/3;
-}
-#mohaescaleras .tituloescaleras2 h1{
-
-  color: white;
-  font-size: 800%;
-  margin-top: 0px;
-  margin-left: 35px;
-}
-#mohaescaleras .mohavideo{
+  padding: 9px;
+  background-color: blue;
   border-radius: 5px;
-  grid-row: 6/7 ;
-  grid-column: 1/3 ;
-
+  grid-row: 3/4;
+  grid-column: 3/5;
+  text-align: center;
+}
 }
 #mohaescaleras .mohaexplicacion{
+  margin-right:5%;
   padding: 9px;
+  background-color: red;
   border-radius: 5px;
-  grid-row: 5/6 ;
-  grid-column: 1/3 ;
+  grid-row: 6/7;
+  grid-column: 2/4;
+  text-align: center;
 }
-#mohaescaleras.mohaexplicacion h2{
-  color: white;
 }
 #mohaescaleras .mohaexplicacion2{
+  margin-left: 5%;
   padding: 9px;
+  background-color: blue;
   border-radius: 5px;
-  grid-row: 6/7 ;
-  grid-column: 3/5;
-  color: white;
-}
-#mohaescaleras .mohaexplicacion2 h2{
-  color: white;
-}
-#mohaescaleras.mohavideo iframe{
-  width: 100%;
-  height: 100%;
+  grid-row: 6/7;
+  grid-column: 4/6;
+  text-align: center;
+
+
 
 }
+
+#mohaescaleras .entrevistas{
+  padding: 9px;
+  margin-right: 5%;
+  background-color: blue;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 2/4;
+  text-align: center;
+}
+#mohaescaleras .imagenes{
+  padding: 9px;
+  margin-left: 5%;
+  background-color: red;
+  border-radius: 5px;
+  grid-row: 8/9;
+  grid-column: 4/6;
+  text-align: center;

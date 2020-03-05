@@ -233,7 +233,7 @@ h1{
   #jairveus .audioveu{
     padding: 9px;
     grid-row: 5/6;
-    grid-column: 2/4;
+    grid-column: 3/4;
   }
   #jairveus .imagenveu1{
     padding: 9px;
@@ -371,91 +371,7 @@ h1{
 
 
 
-#Viatge {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr 1fr;
-  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(31vh - 10px) calc(55vh - 10px) calc(5vh - 10px);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
 
-#Viatge .fondo{
-  background-color: black;
-  grid-row: 4/8;
-  grid-column: 1/5;
-}
-
-#Viatge .titulo{
-  padding:9px;
-  background-color: black;
-  border-radius: 50px;
-  grid-row: 3/5 ;
-  grid-column: 2/3;
-}
-
-#Viatge .titulo h1{
-  color: white;
-  font-size: 2500%;
-  margin-top: 0px;
-  margin-left: 35px;
-}
-
-#Viatge .imagen{
-  padding: 9px;
-  margin-left: 5%;
-  border-radius: 5px;
-  grid-row: 5/6;
-  grid-column: 1/3;
-  text-align: center;
-}
-
-#Viatge .imagen img{
-  width: 45%;
-  height: 45%;
-  position: absolute; left: 150px;
-  position: absolute; bottom: -300px;
-}
-
-#Viatge .text{
-  color: white;
-  font-size: 425%;
-  grid-row: 5/6;
-  grid-column: 3/4;
-  text-align: center;
-}
-
-#Viatge .text p{
-  position: absolute; left: 2250px;
-  position: absolute; bottom: -30px;
-}
-
-#Viatge .imagen2{
-  padding: 9px;
-  margin-left: 5%;
-  border-radius: 5px;
-  grid-row: 6/7;
-  grid-column: 3/4;
-  text-align: center;
-}
-
-#Viatge .imagen2 img{
-  width: 40%;
-  height: 40%;
-  position: absolute; right: 75px;
-  position: absolute;bottom: -1700px;
-}
-
-#Viatge .texto2{
-  color: white;
-  font-size: 400%;
-  grid-row: 6/7;
-  grid-column: 1/2;
-}
-
-#Viatge .texto2 p{
-  position: absolute;
-  left: 10px;
-}
 
 
 

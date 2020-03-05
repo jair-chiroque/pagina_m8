@@ -245,7 +245,11 @@ h1{
     height: 100%;
   }
 
-
+#viatge{
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: ;
+}
 
 
 

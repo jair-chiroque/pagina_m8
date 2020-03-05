@@ -284,8 +284,10 @@ h1{
 
 
 
-
-
+#imagenescaleras{
+  padding: 9px;
+  grid-row: 1/4;
+  grid-column: 1/7;
 
 
 
@@ -588,7 +590,7 @@ h1{
   grid-column-gap: 10px ;
   grid-row-gap: 10px ;
 }
-}
+
 #mohaescaleras .tituloescaleras2{
   padding: 9px;
   background-color: blue;

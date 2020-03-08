@@ -6,7 +6,6 @@ h1{
 #containerjair {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr;
-  grid-template-rows: calc(15vh - 10px) calc(5vh - 10px) calc(32vh - 10px) calc(32vh - 10px) calc(16vh - 10px) calc(40vh - 10px) calc(4vh - 10px) calc(40vh - 10px) calc(15vh - 10px);
   grid-template-rows: calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(60vh - 10px) calc(5vh - 10px) calc(45vh - 10px) calc(5vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -156,51 +155,86 @@ h1{
 
 }
 
-
 #jairexpo{
   display: grid;
-  grid-template-columns:  1fr 3fr 6fr  1fr ;
-  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(3vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px);
-  grid-column-gap: 10px ;
-  grid-row-gap: 10px ;
+  grid-template-columns: 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr;
+  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(10vh - 10px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 #jairexpo .fondoexpo{
   background-color: black;
-  grid-row: 4/8;
-  grid-column: 1/5;
+  grid-row: 4/10;
+  grid-column: 1/9;
 }
 #jairexpo .tituloexpo{
   padding:9px;
   background-color: black;
   border-radius: 50px;
   grid-row: 3/5 ;
-  grid-column: 1/2;
+  grid-column: 1/4;
   width: 100%;
   height: 100%;
 }
 #jairexpo .tituloexpo h1{
 
   color: white;
-  font-size: 800%;
+font-size: 800%;
   margin-top: 0px;
-  margin-left: 35px;
+  margin-left: 50px;
 }
 #jairexpo .imagenexpo1{
- grid-row: 4/5;
- grid-column: 2/3;
+ grid-row: 6/7;
+ grid-column: 2/4;
+}
+#jairexpo .imagenexpo1 img{
+  width: 100%;
+  height: 100%;
 }
 #jairexpo .imagenexpo2{
-
+  grid-row: 6/7;
+  grid-column: 4/6;
+}
+#jairexpo .imagenexpo2 img{
+  width: 100%;
+  height: 100%;
 }
 #jairexpo .imagenexpo3{
-
+  grid-row: 7/8;
+  grid-column: 2/4;
+}
+#jairexpo .imagenexpo3 img{
+  width: 100%;
+  height: 100%;
 }
 #jairexpo .imagenexpo4{
-
+  grid-row: 7/8;
+  grid-column: 4/6;
 }
-#jairexpo .imagegenexpo5{
-
+#jairexpo .imagenexpo4 img{
+  width: 100%;
+  height: 100%;
 }
+#jairexpo .imagenexpo5{
+  grid-row: 8/9;
+  grid-column: 2/4;
+}
+#jairexpo .imagenexpo5 img{
+  width: 100%;
+  height: 100%;
+}
+
+#jairexpo .imagenexpo6 {
+  grid-row: 8/9;
+  grid-column: 4/6;
+}
+#jairexpo .imagenexpo6 img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
 
 #jairveus{
   display: grid;
@@ -245,402 +279,110 @@ h1{
     height: 100%;
   }
 
-#viatge{
+#viaje{
   display: grid;
-  grid-template-columns: ;
-  grid-template-rows: ;
+  grid-template-columns: 0.5fr 0.5fr 2fr 2fr 0.5fr 0.5fr;
+  grid-template-rows: calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(50vh - 10px) calc(50vh - 10px) calc(1vh - 10px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#imagenescaleras{
-  padding: 9px;
-  grid-row: 1/4;
+#viaje .fondoviaje{
+  background-color: black;
+  grid-row: 4/8;
   grid-column: 1/7;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+#viaje .tituloviaje1 {
+  padding:9px;
+  background-color: black;
+  border-radius: 50px;
+  grid-row: 3/4;
+  grid-column: 2/4;
+  height: 209px;
+
+  }
+  #viaje .tituloviaje1 h1{
+    color:white;
+    width: 200%;
+    height: 200%;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  #viaje .imagenviaje1{
+    padding: 9px;
+    grid-row: 5/6;
+    grid-column: 2/4;
+  }
+  #viaje .imagenviaje1 img{
+    width: 100%;
+    height: 100%;
+  }
+  #viaje .imagenviaje2{
+    padding: 9px;
+    grid-row: 6/7;
+    grid-column: 2/4;
+  }
+  #viaje .imagenviaje2 img{
+    width: 100%;
+    height: 100%;
+  }
+  #viaje .imagenviaje3{
+    padding: 9px;
+    grid-row: 6/7;
+    grid-column: 4/6;
+  }
+  #viaje .imagenviaje3 img{
+    width: 100%;
+    height: 100%;
+  }
 
 #mohaescaleras{
   display: grid;
-  grid-template-columns:  1fr 3fr 6fr  1fr ;
-  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(3vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px) calc(30vh - 10px);
-  grid-column-gap: 10px ;
-  grid-row-gap: 10px ;
+  grid-template-columns:  0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr;
+  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(40vh - 10px) calc(16vh - 10px) calc(16vh - 10px) calc(16vh - 10px) calc(16vh - 10px) calc(16vh - 10px)
+   calc(16vh - 10px)  calc(16vh - 10px)  calc(16vh - 10px)  calc(16vh - 10px);
+grid-gap: 0px;
 }
-
-#mohaescaleras .tituloescaleras2{
-  padding: 9px;
-  background-color: blue;
-  border-radius: 5px;
-  grid-row: 3/4;
-  grid-column: 3/5;
-  text-align: center;
+#mohaescaleras .fondoescala1{
+  background-color: black;
+  grid-row: 5/6;
+  grid-column: 1/2;
+  grid-column-gap: 0% ;
+  grid-row-gap:0% ;
 }
-}
-#mohaescaleras .mohaexplicacion{
-  margin-right:5%;
-  padding: 9px;
-  background-color: red;
-  border-radius: 5px;
+#mohaescaleras .fondoescala2{
+  background-color: black;
   grid-row: 6/7;
-  grid-column: 2/4;
-  text-align: center;
+  grid-column: 1/3;
 }
+#mohaescaleras .fondoescala3{
+  background-color: black;
+  grid-row: 7/8;
+  grid-column: 1/4;
 }
-#mohaescaleras .mohaexplicacion2{
-  margin-left: 5%;
-  padding: 9px;
-  background-color: blue;
-  border-radius: 5px;
-  grid-row: 6/7;
-  grid-column: 4/6;
-  text-align: center;
-
-
-
-}
-
-#mohaescaleras .entrevistas{
-  padding: 9px;
-  margin-right: 5%;
-  background-color: blue;
-  border-radius: 5px;
+#mohaescaleras .fondoescala4{
+  background-color: black;
   grid-row: 8/9;
-  grid-column: 2/4;
-  text-align: center;
+  grid-column: 1/5;
 }
-#mohaescaleras .imagenes{
-  padding: 9px;
-  margin-left: 5%;
-  background-color: red;
-  border-radius: 5px;
-  grid-row: 8/9;
-  grid-column: 4/6;
-  text-align: center;
+#mohaescaleras .fondoescala5{
+  background-color: black;
+  grid-row: 9/10;
+  grid-column: 1/6;
+}
+#mohaescaleras .fondoescala6{
+  background-color: black;
+  grid-row: 10/11;
+  grid-column: 1/7;
+}
+#mohaescaleras .fondoescala7{
+  background-color: black;
+  grid-row: 11/12;
+  grid-column: 1/8;
+}
+#mohaescaleras .fondoescala8{
+  background-color: black;
+  grid-row: 12/13;
+  grid-column: 1/9;
+}#mohaescaleras .fondoescala9{
+  background-color: black;
+  grid-row: 13/14;
+  grid-column: 1/10;
+}

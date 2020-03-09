@@ -351,12 +351,14 @@ font-size: 400%;
   height: 209px;
   }
   #mohaescaleras .tituloescala1 h1{
+
     color:white;
-    font-size: 500%;
+    font-size: 470%;
     width: 200%;
     height: 200%;
     margin-top: 30px;
     margin-left: 10px;
+
   }
 #mohaescaleras .fondoescala1{
   background-color: black;

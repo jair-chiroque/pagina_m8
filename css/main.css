@@ -184,7 +184,7 @@
 #jairexpo{
   display: grid;
   grid-template-columns:0.5fr 0.5fr 1fr 1fr 0.5fr 0.5fr;
-  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(40vh - 10px);
+  grid-template-rows: calc(18vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(30vh - 10px) calc(10vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(40vh - 10px) calc(60vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
 
@@ -219,7 +219,7 @@ font-size: 400%;
 }
 #jairexpo .imagenexpo1{
  grid-row: 6/7;
- grid-column: 2/6;
+ grid-column: 1/7;
 }
 #jairexpo .imagenexpo1 img{
   width: 100%;

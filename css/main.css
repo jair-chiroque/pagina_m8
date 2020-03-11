@@ -58,10 +58,9 @@
   background-color: blue;
   background-color: white;
   border-radius: 5px;
-  grid-row: 8/9;
-  grid-column: 2/4;
+
   grid-row: 7/8;
-  grid-column: 4/6;
+  grid-column: 4/7;
   text-align: center;
 }
 #containerjair .slider{

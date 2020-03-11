@@ -439,6 +439,11 @@ font-size: 400%;
     margin-top: 30px;
     margin-left: 5px;
   }
+  #viaje .explicacionviaje{
+    padding: 9px;
+    grid-row: 5/6;
+    grid-column: 4/6;
+  }
   #viaje .imagenviaje1{
     padding: 9px;
     grid-row: 5/6;
@@ -466,10 +471,7 @@ font-size: 400%;
     width: 100%;
     height: 100%;
   }
-  /*Quan heu pujat i baixat aquesta escala, us haureu fixat que està plena de paraules, unes paraules que volen connectar l’obra del pintor amb els versos del poemari d’Erri de Luca, Solo Andata. Hem treballat els poemes i ens ha impactat la força i duresa de les seves paraules, com és forta i de vegades dura l’experiència de migrar. Mare, vento, onde, immensita… per arribar a l’obra de Piero Sacchetto.
 
-  Ens ha agradat treballar per fer una obra col.lectiva fora de l’institut i en concret crear una instal.lació aprofitant els espais quotidians del museu i dotar-los de sentit propi. Les escales de pujada al món del pintor.
-*/
 #mohaescaleras{
   display: grid;
   grid-template-columns:  0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr;

@@ -52,6 +52,10 @@
   text-align: center;
 }
 
+#containerjair .explicacion1 h3{
+  color: black;
+}
+
 #containerjair .entrevistas{
   padding: 9px;
   margin-right: 5%;

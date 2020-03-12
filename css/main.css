@@ -464,14 +464,15 @@ font-size: 400%;
     width: 100%;
     height: 100%;
   }
-  #viaje .imagenviaje3{
+  #viaje .video3{
     padding: 9px;
     grid-row: 6/7;
     grid-column: 4/6;
   }
-  #viaje .imagenviaje3 img{
+  #viaje .video3 iframe{
     width: 100%;
     height: 100%;
+
   }
 
 #mohaescaleras{
